@@ -1,0 +1,146 @@
+[
+  {
+    "id": "slide-01-cover",
+    "position": 1,
+    "filepath": "src/pages/slides/Slide01Cover.tsx",
+    "title": "Cover — Reelify",
+    "description": "Title slide: product name, role, timeline, tech stack badges",
+    "speakerNotes": "Open with the product name and one-liner. Set the tone: this is a full-stack product built solo."
+  },
+  {
+    "id": "slide-02-problem",
+    "position": 2,
+    "filepath": "src/pages/slides/Slide02Problem.tsx",
+    "title": "The Problem",
+    "description": "Multi-platform publishing tax, 12 editing sessions, caption pain, creator quote",
+    "speakerNotes": "The core frustration: creators spend more time reformatting than creating. 85% of viewers watch without sound — captions are essential."
+  },
+  {
+    "id": "slide-03-market-gap",
+    "position": 3,
+    "filepath": "src/pages/slides/Slide03MarketGap.tsx",
+    "title": "Market Gap",
+    "description": "Four missing capabilities + competitor shortfall table",
+    "speakerNotes": "No existing tool covers all four requirements in a single workflow. Reelify fills the gap."
+  },
+  {
+    "id": "slide-04-user-research",
+    "position": 4,
+    "filepath": "src/pages/slides/Slide04UserResearch.tsx",
+    "title": "User Research",
+    "description": "Three user profiles: Alex (primary), Maria (secondary), Brand Manager (edge case)",
+    "speakerNotes": "Two primary archetypes with different technical sophistication but identical pain points."
+  },
+  {
+    "id": "slide-05-goals",
+    "position": 5,
+    "filepath": "src/pages/slides/Slide05Goals.tsx",
+    "title": "Goals & Objectives",
+    "description": "Six goal categories across business, UX, usability, engagement, accessibility, and scalability",
+    "speakerNotes": "Goals are measurable: 5-minute export, zero friction onboarding, WCAG AA throughout."
+  },
+  {
+    "id": "slide-06-competitive",
+    "position": 6,
+    "filepath": "src/pages/slides/Slide06CompetitiveAnalysis.tsx",
+    "title": "Competitive Analysis",
+    "description": "Feature comparison table: Reelify vs Opus Clip, CapCut, Adobe Express, Descript",
+    "speakerNotes": "Reelify is the only web-native, batch-first, all-four-platforms solution."
+  },
+  {
+    "id": "slide-07-info-arch",
+    "position": 7,
+    "filepath": "src/pages/slides/Slide07InfoArch.tsx",
+    "title": "Information Architecture",
+    "description": "Navigation tree, workflow state model, sidebar logic, cognitive load strategy",
+    "speakerNotes": "Navigation reflects creator workflow state: create → manage → export → review."
+  },
+  {
+    "id": "slide-08-ux-process",
+    "position": 8,
+    "filepath": "src/pages/slides/Slide08UXProcess.tsx",
+    "title": "UX Process",
+    "description": "Four phases: Discovery, Architecture, Prototyping, Iteration",
+    "speakerNotes": "Each phase had a specific question to answer. The architecture decision (project-centric model) was the most consequential."
+  },
+  {
+    "id": "slide-09-processing-iteration",
+    "position": 9,
+    "filepath": "src/pages/slides/Slide09ProcessingIteration.tsx",
+    "title": "Iteration: Processing Feedback",
+    "description": "Before/after: generic spinner vs staged progress messages with polling",
+    "speakerNotes": "User testing revealed immediate abandonment with a spinner. Staged messages make automation feel tangible."
+  },
+  {
+    "id": "slide-10-export-iteration",
+    "position": 10,
+    "filepath": "src/pages/slides/Slide10ExportIteration.tsx",
+    "title": "Iteration: Export UX",
+    "description": "Before/after: single Export All button vs per-platform downloads with explicit count",
+    "speakerNotes": "The count eliminates ambiguity. The fetch+blob URL pattern solves the Authorization header problem."
+  },
+  {
+    "id": "slide-11-design-system",
+    "position": 11,
+    "filepath": "src/pages/slides/Slide11DesignSystem.tsx",
+    "title": "Design System",
+    "description": "Color palette, typography (Inter + DM Mono), spacing system, component architecture",
+    "speakerNotes": "Dark first — content creation tools skew dark. Status colors are always paired with text, never color-only."
+  },
+  {
+    "id": "slide-12-upload-flow",
+    "position": 12,
+    "filepath": "src/pages/slides/Slide12UploadFlow.tsx",
+    "title": "Upload Flow",
+    "description": "Three-decision upload: file, project name, platforms. Pre-selection, inline validation, accessibility",
+    "speakerNotes": "Pre-selecting TikTok + YouTube Shorts reduces the decision to confirm-or-adjust."
+  },
+  {
+    "id": "slide-13-dashboard",
+    "position": 13,
+    "filepath": "src/pages/slides/Slide13Dashboard.tsx",
+    "title": "Dashboard UX",
+    "description": "Three stat cards, upgrade nudge timing, recent projects, design rationale",
+    "speakerNotes": "The amber banner appears at 1 remaining — proactively. Surprise limits frustrate; anticipated limits convert."
+  },
+  {
+    "id": "slide-14-pipeline",
+    "position": 14,
+    "filepath": "src/pages/slides/Slide14Pipeline.tsx",
+    "title": "AI Processing Pipeline",
+    "description": "State machine, processing stages, polling architecture, swap-ready design",
+    "speakerNotes": "Polling over WebSockets is a deliberate tradeoff — zero infrastructure overhead, frontend already swap-ready."
+  },
+  {
+    "id": "slide-15-freemium",
+    "position": 15,
+    "filepath": "src/pages/slides/Slide15Freemium.tsx",
+    "title": "Freemium & Export Limits",
+    "description": "Upgrade timing strategy, server-side limit enforcement, pricing tiers, Stripe integration",
+    "speakerNotes": "The upgrade prompt timing (at 1 remaining, not 0) is a product decision with direct conversion impact."
+  },
+  {
+    "id": "slide-16-frontend-eng",
+    "position": 16,
+    "filepath": "src/pages/slides/Slide16FrontendEng.tsx",
+    "title": "Frontend Engineering",
+    "description": "Zero-any TypeScript, TanStack Query, state coverage contract, performance configuration",
+    "speakerNotes": "TypeScript strictness is a UX tool — when types match the API, the UI accurately reflects the data model."
+  },
+  {
+    "id": "slide-17-outcomes",
+    "position": 17,
+    "filepath": "src/pages/slides/Slide17Outcomes.tsx",
+    "title": "Outcomes & Impact",
+    "description": "Workflow time reduction (~4hr to <10min), key metrics, product maturity principle",
+    "speakerNotes": "The 4-hour to 10-minute reduction is qualitative but real — based on actual workflow comparison."
+  },
+  {
+    "id": "slide-18-reflection",
+    "position": 18,
+    "filepath": "src/pages/slides/Slide18Reflection.tsx",
+    "title": "Reflection & Roadmap",
+    "description": "What worked, v2-v5 roadmap, CTA",
+    "speakerNotes": "Close with the product maturity principle: the UX contract can be production-quality before the backend is."
+  }
+]
